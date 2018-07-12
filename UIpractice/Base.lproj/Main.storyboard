@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="UIpractice" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hgd-fA-auI" userLabel="right">
+                                <rect key="frame" x="90" y="290" width="210" height="228"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QQX-VR-TPK" userLabel="top">
+                                <rect key="frame" x="20" y="120" width="280" height="150"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="8Hj-lI-Tkl"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="frC-sM-JXL" userLabel="left">
+                                <rect key="frame" x="20" y="290" width="50" height="228"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="fxa-ZY-MPM"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="frC-sM-JXL" firstAttribute="leading" secondItem="QQX-VR-TPK" secondAttribute="leading" id="84S-gs-z16"/>
+                            <constraint firstItem="QQX-VR-TPK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="9dP-qR-bwm"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="frC-sM-JXL" secondAttribute="bottom" constant="50" id="BgY-UC-wyC"/>
+                            <constraint firstItem="hgd-fA-auI" firstAttribute="leading" secondItem="frC-sM-JXL" secondAttribute="trailing" constant="20" id="K9p-tg-lHA"/>
+                            <constraint firstItem="hgd-fA-auI" firstAttribute="bottom" secondItem="frC-sM-JXL" secondAttribute="bottom" id="TMu-f0-Ha9"/>
+                            <constraint firstItem="hgd-fA-auI" firstAttribute="top" secondItem="frC-sM-JXL" secondAttribute="top" id="hUM-4j-9Pv"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="QQX-VR-TPK" secondAttribute="trailing" constant="20" id="qai-Eb-SlK"/>
+                            <constraint firstItem="frC-sM-JXL" firstAttribute="top" secondItem="QQX-VR-TPK" secondAttribute="bottom" constant="20" id="swC-9r-m7V"/>
+                            <constraint firstItem="QQX-VR-TPK" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="tri-T8-sa6"/>
+                            <constraint firstItem="hgd-fA-auI" firstAttribute="trailing" secondItem="QQX-VR-TPK" secondAttribute="trailing" id="x3O-MH-YW5"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.875" y="133.09859154929578"/>
+        </scene>
+    </scenes>
+</document>
